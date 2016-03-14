@@ -1,0 +1,30 @@
+{
+  "name": "configuration-manager",
+  "version": "1.0.0",
+  "description": "",
+  "engines": {
+    "node": ">=0.10.25"
+  },
+  "author": "Jose Luis Damian Saavedra <jlds161089@gmail.com>",
+  "dependencies": {
+    "nconf": "^0.8.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/saavedrajl/NodeJS-configuration-manager.git"
+  },
+  "main": "./index.js",
+  "keywords": [
+    "configuration"
+  ],
+  "licenses": [
+    {
+      "type": "MIT License",
+      "url": "http://www.opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "scripts": {
+    "start": "set NODE_ENV=production && node index.js"
+  }
+}
