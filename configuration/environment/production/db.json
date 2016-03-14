@@ -1,0 +1,9 @@
+{
+  "database": {
+    "host": "192.168.1.120",
+    "port": 3306,
+    "username": "root",
+    "password": "root",
+    "database": "database"
+  }
+}
