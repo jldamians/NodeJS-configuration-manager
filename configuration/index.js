@@ -6,7 +6,8 @@ var nconf = require('nconf');
 
 var root = './configuration/environment' ;
 var env = process.env.NODE_ENV || 'development';
-var rootEnv = path.join(root, env);
+var rootEnv = path.join(root, env.toString().trim());
+
 
 /**
  * Cargar las configuraciones en el siguiente orden
